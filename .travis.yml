@@ -7,4 +7,4 @@ script:
 install:
  — npm install -g firebase-tools
 after_success:
- — firebase deploy --project lolapp-7e941 --token $FIREBASE_TOKEN.
+ — firebase deploy --project lolapp-7e941 --token $FIREBASE_TOKEN.
