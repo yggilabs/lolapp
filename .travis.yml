@@ -6,8 +6,6 @@ script:
   - echo "Deploy!!"
 install:
   - npm i -g firebase-tools
-  - cd functions
-  - npm i
-  - cd ..
+  - cd functions && npm i && cd ..
 after_success:
   - firebase deploy --project lolapp-7e941 --token $FIREBASE_TOKEN
