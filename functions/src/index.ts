@@ -1,6 +1,8 @@
 import * as functions from 'firebase-functions';
 import * as admin from 'firebase-admin';
-import * as app from 'express';
+import * as express from 'express';
+
+const app = express();
 
 admin.initializeApp(); // this automatically handles all the configuration
 
