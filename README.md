@@ -3,7 +3,7 @@
 # lolapp
 A test application for LoL integration and learning JavaScript using CI with Firebase.
 
-You edit your firebase application at https://github.com/yggilabs/lolapp/blob/master/functions/index.js
+You edit your firebase application at https://github.com/yggilabs/lolapp/blob/master/functions/index.ts
 
 The test endpoint can be found at https://us-central1-lolapp-7e941.cloudfunctions.net/api/test
 
