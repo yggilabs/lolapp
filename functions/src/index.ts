@@ -6,7 +6,7 @@ const app = express();
 
 admin.initializeApp(); // this automatically handles all the configuration
 
-app.get('/test/', (request, response) => { // async arrow functions allows you to use 'await' int he function body
+app.get('/test/', async (request, response) => { // async arrow functions allows you to use 'await' int he function body
   try {
     response.send({status: 'ok', message: 'hello world'}); // all endpoints need to call res.send()
   } catch(error) { // if something bad happens
