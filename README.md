@@ -10,3 +10,5 @@ The test endpoint can be found at https://us-central1-lolapp-7e941.cloudfunction
 The web root directory is https://github.com/yggilabs/lolapp/tree/master/docs
 
 The webpage is found at https://yggilabs.github.io/lolapp/
+
+See build logs here https://travis-ci.org/yggilabs/lolapp
