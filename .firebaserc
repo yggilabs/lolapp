@@ -1,5 +1,6 @@
 {
   "projects": {
-    "staging": "lolapp-7e941"
+    "staging": "lolapp-7e941",
+    "default": "lolapp-7e941"
   }
 }
