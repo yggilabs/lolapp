@@ -1,3 +1,10 @@
+## Compiled JavaScript files
+functions/**/*.js
+functions/**/*.js.map
+
+# Typescript v1 declaration files
+functions/typings/
+
 # Logs
 logs
 *.log
